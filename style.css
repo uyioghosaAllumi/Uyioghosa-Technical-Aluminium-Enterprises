@@ -1,14 +1,18 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+    pointer-events: auto;
 }
 
 body, html {
-    background: rgb(0, 0, 34);
+    color: #ededed;
+    background: #081b29;
+    overflow-y: scroll;
     overflow-x: hidden;
-    overflow-y: auto;
-    color: aliceblue;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -622,34 +626,6 @@ section {
 
 .row:hover .layer {
     height: 100%;
-}
-
-
-.more-portfolios {
-    margin: 50px 10%;
-    width: 100%;
-}
-
-.more-portfolios a {
-     height: 40px;
-    width: 80%;
-    background: cyan;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 1000;
-    border-radius: 11px;
-    box-shadow: 0 0 1px cyan,
-    0 0 2px cyan, 0 0 5px cyan,
-    0 0 10px cyan, 0 0 20px cyan;
-}
-
-
-.more-portfolios a:hover {
-    box-shadow: 0 0 10px cyan,
-    0 0 20px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
 }
 
 .contact {
