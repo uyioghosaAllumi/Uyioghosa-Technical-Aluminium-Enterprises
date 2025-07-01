@@ -1231,16 +1231,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
-        margin-left: 60px;
     } 
-
-    #services{
-       display: flex;
-       justify-content: center;
-       text-align: center;
-        margin: 0 auto;
-        
-    }
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
@@ -1252,13 +1243,11 @@ section {
         width: 100%;
     }
 
-
-
     .contact {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
-        float: right;
+        float: left;
     }
 
     .contact-text h2 {
