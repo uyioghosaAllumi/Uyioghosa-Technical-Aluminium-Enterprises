@@ -1052,7 +1052,7 @@ section {
         width: 360px;
         height: 500px;
         padding: 40px 10px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .headings {
@@ -1166,7 +1166,7 @@ section {
     }
 
     .menu-button a{
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 10px;
     }
 
@@ -1242,7 +1242,8 @@ section {
         display: flex;
         text-align: center;
         font-size: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
+        margin-top: 30px;
         margin-left: 60px;
     } 
         
@@ -1306,7 +1307,8 @@ section {
 
     .main-text h2 {
         font-size: 40px;
-        padding-bottom: 39px;
+        padding-bottom: 0px;
+        margin-left: 30px;
     }
 
     .layer h5 {
