@@ -1045,7 +1045,7 @@ section {
     }
 
     .home-image {
-        margin: 50px 50px 0px 50px;
+        margin: 50px 20px 0px 20px;
 
     }
 
@@ -1088,7 +1088,9 @@ section {
 
     .portfolio-content {
         justify-content: center;
+        align-items: center;
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
     }
 
     .more-portfolios a {
