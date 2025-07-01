@@ -1211,7 +1211,6 @@ section {
 
     .about {
         flex-direction: column;
-        padding: 20px;
         max-width: 360px;
     }
     .about-image {
