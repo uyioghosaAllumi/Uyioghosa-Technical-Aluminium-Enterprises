@@ -1153,7 +1153,7 @@ section {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
     .topbar {
         align-items: left;
     }
@@ -1190,6 +1190,7 @@ section {
     .home {
         margin-top: 100px;
         flex-direction: column;
+         max-width: 360px;
     }
 
     .home-image {
@@ -1211,7 +1212,7 @@ section {
     .about {
         flex-direction: column;
         padding: 20px;
-        min-width: 360px;
+        max-width: 360px;
     }
     .about-image {
         margin: 0px;
@@ -1224,6 +1225,15 @@ section {
 
     .skill-container {
         max-width: 360px;
+    }
+
+    #services{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+        margin: 0 auto;
+        max-width: 360px;
+        
     }
 
     .sub-title{
@@ -1249,6 +1259,7 @@ section {
         margin-top: 30px;
         margin-right: 20px;
         float: none;
+        max-width: 360px;
     }
 
     .contact-text h2 {
