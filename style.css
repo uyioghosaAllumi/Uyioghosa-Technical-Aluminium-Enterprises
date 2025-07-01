@@ -443,7 +443,7 @@ body, html {
     color:aliceblue;
     font-size: 60px;
     line-height: 1.4;
-    margin: 0 auto;
+    margin-bottom: 4rem;
 }
 .sub-title{
     text-align: center;
@@ -957,6 +957,13 @@ section {
         grid-template-columns: repeat(1, 1fr);
     }
 
+     #services{
+        color:aliceblue;
+        font-size: 60px;
+        line-height: 1.4;
+        margin-bottom: 4rem;
+    }
+
     .more-portfolios a {
         max-width: 360px;
         height: 100px;
@@ -1078,6 +1085,13 @@ section {
         max-width: 600px;
     }
 
+    #services{
+        color:aliceblue;
+        font-size: 40px;
+        line-height: 1.4;
+        margin-bottom: 4rem;
+    }
+
     .sub-title{
         text-align: center;
         font-size: 40px;
@@ -1102,13 +1116,10 @@ section {
 
 
     .contact {
-        min-width: 360px;
-        max-with: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        align-items: center;
-        float: none;
+        margin-top: 30px;
+        float: right;
     }
 
     .contact-text h2 {
@@ -1216,12 +1227,20 @@ section {
     }
 
     .sub-title{
+        display: flex;
         text-align: center;
         font-size: 40px;
-        padding: 0px 0px;
+        padding-bottom: 30px;
+        margin-left: 60px;
+    } 
+
+    #services{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+        margin: 0 auto;
+        
     }
-
-
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
@@ -1236,13 +1255,10 @@ section {
 
 
     .contact {
-        max-width: 360px;
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        align-items: center;
-        float: none;
-        margin-left: 0px;
+        margin-top: 30px;
+        float: right;
     }
 
     .contact-text h2 {
