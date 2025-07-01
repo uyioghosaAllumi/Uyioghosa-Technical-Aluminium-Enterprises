@@ -1061,13 +1061,6 @@ section {
         max-width: 600px;
     }
 
-    #services{
-        color:aliceblue;
-        font-size: 40px;
-        line-height: 1.4;
-        margin-bottom: 4rem;
-    }
-
     .sub-title{
         text-align: center;
         font-size: 40px;
@@ -1129,7 +1122,7 @@ section {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .topbar {
         align-items: left;
     }
@@ -1206,9 +1199,8 @@ section {
 
     #services{
        display: flex;
-       justify-content: center;
+       justify-content: left;
        text-align: center;
-        margin: 0 auto;
     }
 
     .sub-title{
