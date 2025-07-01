@@ -1153,7 +1153,7 @@ section {
     
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
     .topbar {
         align-items: left;
     }
