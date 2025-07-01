@@ -1210,9 +1210,11 @@ section {
 
 
     .about {
+        display: flex;
         flex-direction: column;
-        max-width: 360px;
+        align-items: center;
     }
+    
     .about-image {
         margin: 0px;
     }
@@ -1230,6 +1232,7 @@ section {
        display: flex;
        justify-content: center;
        text-align: center;
+        margin: 0 auto;
     }
 
     .sub-title{
@@ -1237,6 +1240,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
+        margin-left: 60px;
     } 
 
     .portfolio-content {
@@ -1254,7 +1258,6 @@ section {
         justify-content: center;
         flex-direction: column;
         margin-top: 30px;
-        margin-right: 20px;
         float: none;
     }
 
