@@ -1247,7 +1247,7 @@ section {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
-        float: left;
+        float: none;
     }
 
     .contact-text h2 {
