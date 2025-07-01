@@ -1139,7 +1139,7 @@ section {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
     .topbar {
         align-items: left;
     }
@@ -1159,6 +1159,7 @@ section {
     align-items: center;
     justify-content: center;
     margin-left: 0px;
+    max-width: 360px;
     }
 
     .menu-button a{
