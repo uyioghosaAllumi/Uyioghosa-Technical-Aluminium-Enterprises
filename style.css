@@ -246,66 +246,186 @@ body, html {
     0 0 100px cyan, 0 0 200px cyan;
 }
 
-/*HOME ENDS*/
-
-/*ABOUT STARTS*/
-
-.about{
-    height: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 2.5rem;
-    margin-right: 50px;
-}
-.about-img img {
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: 600;
-    width: 600;
-    margin-left: 90px; 
-    padding-top: 70px; 
-    border-radius: 20px;  
-}
-.about-content h2{
-    font-size: 60px;
-    word-spacing: 10px;
-}
-.about-content h2 span{
-    counter-reset: #0ef;
-}
-.about-content h4{
-    font-size: 29px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.7;
-    margin: 15px 0 30px;
-}
-.about-content p{
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-left: 10px;
+    padding: 50px;
 }
 
-#more-about-btn {
-    margin: 10px;
-    text-decoration: none; 
+.about-image {
+    margin: 0px 0px 100px 150px;
+}
+
+.about-image img {
+    height: 400px;
+    width: 400px;
+    background: white;
+}
+
+.about-content {
+    margin: 100px 200px 100px  0px;
+    max-width: 600px;
+}
+
+.about-content h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.about-content p {
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.headings {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    padding: 50px 0px;
+    color: white;
+}
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1{animation:animate-path1 1s 1s linear forwards;}
+.path-2{animation:animate-path2 1s 1s linear forwards;}
+.path-3{animation:animate-path3 1s 1s linear forwards;}
+.path-4{animation:animate-path4 1s 1s linear forwards;}
+
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 50;;
+    }
+}
+
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 175;;
+    }
+}
+
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 125;;
+    }
+}
+
+@keyframes animate-path4{
+    100%{
+        stroke-dashoffset: 75;;
+    }
+}
+
+.radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+    color: white;
+}
+
+
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
+}
+
+.main-text{
+    padding-top: 130px;
+}
+
+.main-text h2 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    margin: 100px 10px;
+}
+
+.main-text h2 span {
     color: cyan;
 }
-
-#more-about-text {
-    margin: 10px;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-top: 0px;
-    padding-top: 0px;
-    gap: 0rem;
-}
-
-/*ABOUT STARTS*/
-
-/*SERVICES STARTS*/
 
 .skill-container {
     display: flex;
@@ -431,123 +551,6 @@ section {
     }
 }
 
-.radial-bars {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.radial-bars .radial-bar {
-    width: 50%;
-    height: 170px;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.radial-bars .radial-bar svg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)rotate(-90deg);
-    width: 120px;
-    height: 160px;
-}
-
-.radial-bars .radial-bar .progress-bar{
-    stroke-width: 10;
-    stop-color: black;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
-}
-
-@keyframes animate-bar {
-    100%{
-        stroke-dashoffset: -1;
-    }
-}
-
-.path {
-    stroke-width: 10;
-    stroke: #0ef;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-}
-
-.path-1{animation:animate-path1 1s 1s linear forwards;}
-.path-2{animation:animate-path2 1s 1s linear forwards;}
-.path-3{animation:animate-path3 1s 1s linear forwards;}
-.path-4{animation:animate-path4 1s 1s linear forwards;}
-
-@keyframes animate-path1 {
-    100%{
-        stroke-dashoffset: 50;;
-    }
-}
-
-@keyframes animate-path2 {
-    100%{
-        stroke-dashoffset: 175;;
-    }
-}
-
-@keyframes animate-path3 {
-    100%{
-        stroke-dashoffset: 125;;
-    }
-}
-
-@keyframes animate-path4{
-    100%{
-        stroke-dashoffset: 75;;
-    }
-}
-
-.radial-bar .percentage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-}
-
-.radial-bar .text {
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: -5px;
-    transform: translateX(-50px);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-}
-
-
-.main-text{
-    padding-top: 130px;
-}
-
-.main-text h2 {
-    font-size: 60px;
-    line-height: 1;
-    text-align: center;
-    margin: 100px 10px;
-}
-
-.main-text h2 span {
-    color: #0ef;
-}
 
 .portfolio-content {
     display: grid;
