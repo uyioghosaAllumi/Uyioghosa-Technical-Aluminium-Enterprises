@@ -1102,10 +1102,11 @@ section {
 
 
     .contact {
-        max-width: 600px;
+        min-width: 360px;
+        max-with: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         float: none;
     }
@@ -1238,7 +1239,7 @@ section {
         max-width: 360px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         float: none;
         margin-left: 0px;
