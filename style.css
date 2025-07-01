@@ -1030,10 +1030,6 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 0px;
-    } 
-
-    .sub-title span {
-        padding: 40px; 
     }  
 
     .container {
@@ -1244,7 +1240,6 @@ section {
         font-size: 40px;
         padding-bottom: 0px;
         margin-top: 40px;
-        margin-left: 60px;
     } 
         
     .skill-container {
