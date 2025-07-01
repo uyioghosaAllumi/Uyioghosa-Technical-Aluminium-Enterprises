@@ -455,7 +455,7 @@ body, html {
 .sub-title{
     text-align: center;
     font-size: 60px;
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .sub-title span {
@@ -1029,7 +1029,7 @@ section {
     .sub-title{
         text-align: center;
         font-size: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     } 
 
     .sub-title span {
@@ -1167,7 +1167,7 @@ section {
 
     .menu-button a{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     .site-name {
@@ -1243,7 +1243,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 0px;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 60px;
     } 
         
