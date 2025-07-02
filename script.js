@@ -70,7 +70,7 @@ imageInput.addEventListener('change', function () {
 
 uploadButton.addEventListener('click', function () {
   const password = prompt("Enter upload password:");
-  if (password !== 'herokingboss') {
+  if (password !== 'uyiino') {
     alert('Unauthorized. Incorrect password.');
     return;
   }
@@ -120,7 +120,7 @@ addMoreButton.addEventListener('click', function () {
 
 clearRecentButton.addEventListener('click', function () {
   const password = prompt("Enter password to delete the most recent portfolio:");
-  if (password !== 'herokingboss') {
+  if (password !== 'uyiino') {
     alert('Unauthorized. Incorrect password.');
     return;
   }
