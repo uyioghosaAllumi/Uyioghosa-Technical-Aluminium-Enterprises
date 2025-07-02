@@ -652,6 +652,8 @@ section {
 .upload-section textarea {
     resize: none;
     padding: 5px 10px;
+    width: 250px;
+    border: none;
 }
 
 .row img {
@@ -688,6 +690,7 @@ section {
 #headingInput {
     height: 40px;
     padding-left: 10px
+    border: none;
 }
 
 #authPassword {
@@ -696,6 +699,7 @@ section {
     height: 40px;
     background: #081b29;
     color: white;
+    border: none;
 }
 
 .row:hover img {
