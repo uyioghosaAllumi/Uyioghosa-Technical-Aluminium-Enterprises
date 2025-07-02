@@ -222,7 +222,7 @@ body, html {
 }
 
 
-.links-btn {
+.links-btn a{
     display: inline-block;
     padding: 12px 28px;
     margin-top: 20px;
@@ -629,6 +629,67 @@ section {
 
 .layer a:hover {
     background: cyan;
+}
+
+.upload-section button {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    color: green;
+    background: #00eeff;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 20px;
+        
+}
+
+.upload-section button:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.upload-section textarea {
+    resize: none;
+    padding: 5px 10px;
+}
+
+.row img {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#addMoreBtn, #clearRecentBtn, .authorize {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    color: green;
+    background: #00eeff;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+        box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef
+}
+
+#addMoreBtn:hover, #clearRecentBtn:hover, .authorize:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.authorize {
+    margin-left: 150px;
+}
+
+#authPassword {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 .row:hover img {
