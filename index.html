@@ -263,6 +263,24 @@
                              <a href="#">Order Now</a>
                         </div>
                      </div>
+                    <div id="gallery"></div>
+                    <div class="upload-section" id="uploadSection" style="margin-top: 20px;">
+                    <input type="file" accept="image/*" id="imageUpload" style="display: none;">
+                    <button onclick="document.getElementById('imageUpload').click()">Input Image</button>
+                    <input type="text" placeholder="Enter heading" id="headingInput"><br><br>
+                    <textarea placeholder="Enter introduction" id="introInput" rows="4" cols="50"></textarea><br><br>
+                    <button id="uploadBtn">Upload</button>
+                </div>
+            </div>
+                <div id="addMoreContainer" style="display: none; margin-top: 20px;">
+                    <button id="addMoreBtn">Add Portfolios</button>
+                    <button id="clearRecentBtn" style="margin-top: 20px;">delete portfolio</button>
+                </div>
+
+                <div id="authSection">
+                    <input type="password" id="authPassword" placeholder="Enter upload password">
+                    <button class="authorize" onclick="authorizeUploader()">Authorize</button>
+                </div>
                   </div>
               </div>
           </div>
