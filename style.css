@@ -681,15 +681,15 @@ section {
 }
 
 .authorize {
-    margin-left: 150px;
+    margin-left: 70px;
 }
 
 #authPassword {
-    display: flex;
-    width: 300px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 80px;
+    width: 200px;
+    margin-left: 30px;
+    height: 40px;
+    background: #081b29;
+    color: white;
 }
 
 .row:hover img {
