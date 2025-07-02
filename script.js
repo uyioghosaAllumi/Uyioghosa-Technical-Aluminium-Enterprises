@@ -49,7 +49,7 @@ uploadSection.style.display = 'none';
 function authorizeUploader() {
   const password = document.getElementById('authPassword').value;
   const authSection = document.getElementById('authSection');
-  if (password === 'herokingboss') {
+  if (password === 'uyiino') {
     uploadSection.style.display = 'block';
     authSection.style.display = 'none';
   } else {
